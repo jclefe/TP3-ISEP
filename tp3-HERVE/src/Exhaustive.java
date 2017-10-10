@@ -27,7 +27,7 @@ public class Exhaustive {
 
 public static void main(String[] args) {
 	int [] liste = CreateTab.tableau();
-	exhaust(liste, 5);
+	exhaust(liste, 5);   // par exemple on pose v = 5
 }
 
 
