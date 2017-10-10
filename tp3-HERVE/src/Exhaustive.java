@@ -5,19 +5,19 @@ public class Exhaustive {
 
 		for (int i = 0; i < liste.length; i++) {
 			if (liste[i] == v) {
-				System.out.println("l'indice du 1er élément du tableau égal à l'entier est: " +  i);
+				System.out.println("l'indice du 1er Ã©lÃ©ment du tableau Ã©gal Ã  l'entier est: " +  i);
 				return (i);
 				} else {
-					System.out.println("l'entier recherché n'est pas présent dans la " + i + "ième case");
+					System.out.println("l'entier recherchÃ© n'est pas prÃ©sent dans la " + i + "iÃ¨me case");
 					
 				}
 			}
 		return 0;
 		}
-// il faut autant d'itérations que d'éléments dans le tableau pour trouver v.
-// si v est au début, il faut une itération.
-//si v est à la fin, il faut tab.length itérations.
-// en moyenne il faut (tab.length/n) itérations pour un tableau à n valeurs.
+
+// si v est au dÃ©but, il faut une itÃ©ration.
+//si v est Ã  la fin, il faut liste.length itÃ©rations.
+// en moyenne il faut (liste.length/2) itÃ©rations.
 		
 		
 	
