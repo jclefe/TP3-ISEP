@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//yann
 public class Moyenne {
 
 	public static double moyenne() {
@@ -39,7 +39,7 @@ public class Moyenne {
 		for (int i = 0; i < tab.length; i++) {
 			for (int j = 0; j < tab[0].length; j++) {
 				if (tab[i][j] == Sum/t) {
-					System.out.println("l'indice du 1er élément égal à la moyenne est: (" + i + "," + j + ")");
+					System.out.println("l'indice du 1er Ã©lÃ©ment Ã©gal Ã  la moyenne est: (" + i + "," + j + ")");
 					return (Sum/t);
 				}
 			}
